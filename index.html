@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Business Website</title>
+<!-- Include Roboto font family -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700|Roboto+Condensed:700&display=swap">
+<style>
+ body {
+   font-family: "Roboto", sans-serif; /* Use Roboto as the default font */
+   margin: 0;
+   padding: 0;
+   background-color: #f2f2f2;
+ }
+ header {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .header-item {
+   font-size: 24px;
+   font-family: "Roboto Condensed", sans-serif; /* Use Roboto Condensed for the headers */
+ }
+ .footer {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+ }
+ .social-links {
+   margin-top: 20px;
+ }
+ .social-links a {
+   color: #fff;
+   text-decoration: none;
+   margin: 0 10px;
+ }
+ .middle-section {
+   text-align: center;
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }
+ .middle-section > div {
+   width: 100%; /* Single column by default */
+   margin-bottom: 20px;
+   text-align: center; /* Center the content */
+ }
+ .middle-section img {
+   max-width: 100%;
+   height: auto;
+   margin-bottom: 10px;
+ }
+ .middle-section p {
+   font-size: 16px;
+   margin-bottom: 20px;
+ }
+
+ /* Media Query for Horizontal Orientation */
+ @media (orientation: landscape) {
+   .middle-section > div {
+     width: 48%; /* Two columns */
+   }
+ }
+</style>
+</head>
+<body>
+<header>
+ <img src="logo.jpg" alt="Logo">
+ <div class="header-item">Business Name</div>
+ <div class="header-item">123-456-7890</div>
+</header>
+
+<div class="middle-section">
+ <div>
+   <img src="image1.jpg" alt="Image 1">
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ex nec odio efficitur suscipit.</p>
+ </div>
+ <div>
+   <img src="image2.jpg" alt="Image 2">
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ex nec odio efficitur suscipit.</p>
+ </div>
+ <div>
+   <img src="image3.jpg" alt="Image 3">
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ex nec odio efficitur suscipit.</p>
+ </div>
+ <div>
+   <img src="image4.jpg" alt="Image 4">
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ex nec odio efficitur suscipit.</p>
+ </div>
+</div>
+
+<div class="footer">
+ <p>Business Address: 123 Main Street, City, Country</p>
+ <div class="social-links">
+   <a href="https://www.facebook.com/">Facebook</a>
+   <a href="https://www.linkedin.com/">LinkedIn</a>
+ </div>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ex nec odio efficitur suscipit.</p>
+ <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+</div>
+
+</body>
+</html>
